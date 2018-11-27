@@ -1,0 +1,232 @@
+/* stylesheet for the National Museum of Scotland Website */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*body styling */
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+/* nav bar colours */
+
+nav {
+	background-color: #cf005a;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-link {
+	color: white;
+}
+/*header image styling */
+
+.jumbotron {
+	background-image: url("../images/jumbobg.jpg");
+	background-position: center;
+	color: white;
+}
+/* museum of scotland page jumbotron image */
+
+.nmOS {
+	background-image: url("../images/OSjumbo.jpg");
+	background-position: center;
+	color: white;
+}
+/* museum of flight page jumbotron image */
+
+.nmFlight {
+	background-image: url("../images/flightJumbo.jpg");
+	background-position: center;
+	color: white;
+}
+/* museum of war page jumbotron image */
+
+.nmWar {
+	background-image: url("../images/warJumbo.jpg");
+	background-position: center;
+	color: white;
+}
+.btn {
+	background-color: #cf005a;
+	color: white;
+	min-width: 100px;
+}
+.subheading {
+	text-align: center;
+}
+/* register form styling */
+
+.formbg {
+	background-color: #CCCCCC;
+	padding: 10px;
+	max-width: 40%;
+}
+label {
+	color: #cf005a;
+	font-weight: bold;
+}
+/* museum columns */
+
+/*image gallery stlying */
+
+#galleryMain {
+	max-width: 100%;
+	max-height: 100%;
+}
+.galleryStyle {
+	max-width: 32.95%;
+	max-height: 32.95%;
+	padding-top: 10px;
+}
+.museumHeading {
+	color: #cf005a;
+}
+/* museum google map box */
+
+#map {
+	height: 350px;
+	width: 350px;
+	;
+	margin: auto;
+}
+/*museum accessiblity list */
+
+.list-inline-item {
+	padding: 10px;
+}
+.inline {
+	background-color: #cccccc;
+	font-weight: bold;
+}
+/* accessibility section stlyes */
+
+.accessibility {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #cccccc;
+	margin-bottom: 20px;
+}
+.accessLogo {
+	padding: 20px;
+	text-align: center;
+}
+/* form css */
+
+.comment-form-container {
+	background: #cccccc;
+	border: #e0dfdf 1px solid;
+	padding: 20px;
+	border-radius: 2px;
+}
+.input-row {
+	margin-bottom: 20px;
+}
+.input-field {
+	width: 100%;
+	border-radius: 2px;
+	padding: 10px;
+	border: #e0dfdf 1px solid;
+}
+.btn-submit {
+	padding: 10px 20px;
+	background: #333;
+	border: #1d1d1d 1px solid;
+	color: #f0f0f0;
+	font-size: 0.9em;
+	width: 100px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+ul {
+	list-style-type: none;
+}
+.comment-row {
+	border-bottom: #e0dfdf 1px solid;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.outer-comment {
+	background: #cccccc;
+	padding: 20px;
+	border: #dedddd 1px solid;
+}
+span.commet-row-label {
+	font-style: italic;
+}
+span.posted-by {
+	color: #cf005a;
+}
+.comment-info {
+	font-size: 0.8em;
+}
+.comment-text {
+	margin: 10px 0px;
+}
+.btn-reply {
+	font-size: 0.8em;
+	text-decoration: underline;
+	color: #888787;
+	cursor: pointer;
+}
+#comment-message {
+	margin-left: 20px;
+	color: #189a18;
+	display: none;
+}
+/* media queries for image gallery and accessibility sections */
+
+@media(max-width: 768px) {
+	.galleryStyle {
+		max-width: 49.5%;
+		max-height: 49.5%;
+		padding-top: 10px;
+	}
+	.accessibility {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #cccccc;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width: 453px) {
+	.galleryStyle {
+		max-width: 32.6%;
+		max-height: 32.5%;
+		padding-top: 10px;
+	}
+	.accessibility {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #cccccc;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width: 375px) {
+	.galleryStyle {
+		max-width: 32.5%;
+		max-height: 32.5%;
+		padding-top: 10px;
+	}
+	.accessibility {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #cccccc;
+		margin-bottom: 20px;
+	}
+} 
+@media(max-width: 320px) {
+	.galleryStyle {
+		max-width: 32.3%;
+		max-height: 32.5%;
+		padding-top: 10px;
+	}
+	.accessibility {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #cccccc;
+		margin-bottom: 20px;
+	}
+} 
