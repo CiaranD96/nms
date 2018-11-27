@@ -1,8 +1,9 @@
 <?php
-$servername ="localhost";
-$username ="root";
-$password="root";
-$dbase="nms";
+// names have been removed from this page for security reasons.
+$servername =" "; //database server location
+$username =" "; // databse username
+$password=" "; // database password
+$dbase=" "; // databse name
 
 // create connection
 $conn= new mysqli($servername,$username,$password,$dbase);
